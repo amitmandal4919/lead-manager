@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Secrets - never commit real environment files
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+
+# SQLite database files (created automatically on first run)
+backend/data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# Logs and OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
